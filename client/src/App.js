@@ -7,7 +7,7 @@ function App() {
 
       <nav className={style.navigation}>
         <ul>
-          <li>
+          <li className="listItem">
             <img src="white-origami-bird.png" alt="white-origami"></img>
           </li>
           <li className="listItem">
