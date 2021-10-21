@@ -1,5 +1,5 @@
 import style from "./Header.module.css";
-import NavigationItem from "./NavigationItem/navigationItem";
+import NavigationItem from "./NavigationItem/NavigationItem";
 const Header = () => {
   return (
     <nav className={style.navigation}>
