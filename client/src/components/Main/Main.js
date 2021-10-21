@@ -4,11 +4,11 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <Fragment>
+    <main className='main-container'>
       <h1>Soooooooome Heading</h1>
 
       <p>Some post</p>
-    </Fragment>
+    </main>
   );
 };
 
