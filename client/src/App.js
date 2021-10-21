@@ -1,4 +1,4 @@
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
 
 import style from "./App.module.css";
 
@@ -9,7 +9,7 @@ function App() {
 
      <Header />
      
-     
+     {/* <Menu /> */}
      </div>
   );
 }
