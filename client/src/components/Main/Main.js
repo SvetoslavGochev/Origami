@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+//<fragment> ako polzvame vmesto
+// 6te ima element koito da darji h1 i p vmesto main i nqma da go ima v html
 
 import "./Main.css";
 
