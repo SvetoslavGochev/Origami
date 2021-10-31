@@ -1,12 +1,10 @@
 import "./MenuItem.css";
 
-const  MenuItem =({ 
-  children 
-}) =>  {
+const  MenuItem =({ children }) =>  {
   return (
    <li className="menu-item">
      <a href="#">
-     {children}
+        {children}
      </a>
     
    </li>
