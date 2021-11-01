@@ -4,12 +4,17 @@ import { Fragment } from "react";
 // ili prazen tag <>==<Fragment>
 import "./Main.css";
 
-const Main = () => {
+const Main = ({
+  posts
+})=> {
+  console.log(posts)
   return (
     <main className='main-container'>
-      <h1>Soooooooome Heading</h1>
+       <h1>Soooooooome Heading</h1>
 
-      <p>Some post</p>
+      {posts.map(x => 
+           <p key={x._id}>{x.content}</p>
+      )}
     </main>
   );
 };
