@@ -17,26 +17,26 @@ function App() {
   //     </div>
   //   </div>
   // );
-}
-
-class App extends Component {
-
-  componentDidMount() {
-    
-  }
-
-  render() {
-    return (
-      <div className={style.app}>
-      <Header />
-
-      <div className={style.container}>
-        <Menu />
-
-         <Main />
+  class App extends Component {
+  
+    componentDidMount() {
+      
+    }
+  
+    render() {
+      return (
+        <div className={style.app}>
+        <Header />
+  
+        <div className={style.container}>
+          <Menu />
+  
+           <Main />
+        </div>
       </div>
-    </div>
-    )
+      )
+    }
   }
 }
+
 export default App;
