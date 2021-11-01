@@ -12,3 +12,7 @@
     text-decoration: underline;
     margin-bottom: 2%;
 }
+.main-container .posts {
+    width: 100%;
+    height: 45vh;
+}
