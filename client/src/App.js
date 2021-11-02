@@ -29,7 +29,8 @@ class App extends Component {
      super(props);
 
      this.state = {
-       posts: []
+       posts: [],
+       selectedPost : null
      }
    }
 
@@ -42,7 +43,9 @@ class App extends Component {
     })
   }
 
-
+   onMenuItemClick(id) {
+     this.setState({selectedPost: id});
+   }
 
  render() {
   return (
@@ -52,7 +55,10 @@ class App extends Component {
       <div className={style.container}>
         <Menu />
 
-         <Main posts={this.state.posts} />
+         <Main
+          posts={this.state.posts}
+          onMenuItemClick={this.onMenuItemClick.bind(this)}
+          />
       </div>
     </div>
   );
