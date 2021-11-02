@@ -1,6 +1,6 @@
-const baseUrl ='http://localhost:5000/posts';
+const baseUrl ='http://localhost:5000';
 
 export default {
-    posts: baseUrl 
+    posts: baseUrl + '/posts'
    
 }
