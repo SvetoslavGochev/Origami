@@ -16,7 +16,15 @@ console.log(currentItem);
   return (
    <aside className="menu">
     {MENU_ITEMS.map(x => 
-        <MenuItem key={x.id} id={x.id} onClick={setCurrentItem}>{x.text} {x.id}</MenuItem>
+        <MenuItem 
+        key={x.id}
+         id={x.id} 
+         isSelected={x.id == currentItem }
+         //ako e == zna4i e tuku6tiq selectiranmiq izbraniq vra6ta true or false
+         onClick={setCurrentItem}
+        >
+             {x.text} {x.id}
+             </MenuItem>
 
         )}
    </aside>
