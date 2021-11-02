@@ -11,6 +11,11 @@
             "content": "Some content here2",
             "author": "Pesho2"
 
+        },
+        {
+            "id": 3,
+            "content": "Some content here3ZZZZ",
+            "author": "Pesho3"
         }
     ]
 }
