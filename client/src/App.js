@@ -47,7 +47,7 @@ class App extends Component {
      this.setState({selectedPost: id});
    }
    chek(id) {
-     this.setState();
+     this.setState({ sessionStorage: true});
    }
 
    getPosts() {
