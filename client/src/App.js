@@ -46,6 +46,9 @@ class App extends Component {
    onMenuItemClick(id) {
      this.setState({selectedPost: id});
    }
+   chek(id) {
+     this.setState();
+   }
 
    getPosts() {
      if (!this.state.selectedPost) {
