@@ -5,6 +5,8 @@ import MenuItem from "./MenuItem";
 import "./Menu.css";
 import { MENU_ITEMS } from "./MenuConstants";
 
+  
+
 const Menu = ({ onMenuItemClick }) => {
   const [currentItem, setCurrentItem] = useState();
   //   tuk e get     , tuk e set
@@ -14,6 +16,11 @@ const Menu = ({ onMenuItemClick }) => {
      setCurrentItem(id);
      //da obnovi tate
      onMenuItemClick(id);
+
+   
+    }
+
+    console.log("app is here");
      //app da razbere
   }
   return (
