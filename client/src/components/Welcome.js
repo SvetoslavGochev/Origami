@@ -9,10 +9,13 @@ solve();
 class Welcome extends Component {
     
     render () {
+        let title = this.props.title || "Title";
+        let subtitle = this.props.title || 'Zdrasti';
         return (
+
             <div>
-                <h1>Title</h1>
-                <h2>SubTitle</h2>
+                <h1>{title}</h1>
+                <h2>{subtitle}</h2>
             </div>
         );
     }

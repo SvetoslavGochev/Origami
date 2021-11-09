@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import Menu from "./components/Menu";
 import Main from "./components/Main"
 import style from "./App.module.css";
+import Welcome from "./components/Welcome";
 
 // function App() {
 //   return (
@@ -61,6 +62,8 @@ class App extends Component {
  render() {
   return (
     <div className={style.app}>
+      <Welcome  title='Hello' subtitle='from react'/>
+      <Welcome  message='Zdrasti' subtitle='ot react'/>
       <Header />
 
       <div className={style.container}>
