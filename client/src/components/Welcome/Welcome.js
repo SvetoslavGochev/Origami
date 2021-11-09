@@ -13,7 +13,7 @@ class Welcome extends Component {
         let subtitle = this.props.title || 'Zdrasti';
         return (
 
-            <div>
+            <div className="Welcome">
                 <h1>{title}</h1>
                 <h2>{subtitle}</h2>
             </div>

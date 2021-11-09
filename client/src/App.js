@@ -9,7 +9,7 @@ import Header from "./components/Header/Header";
 import Menu from "./components/Menu";
 import Main from "./components/Main"
 import style from "./App.module.css";
-import Welcome from "./components/Welcome";
+import Welcome from "./components/Welcome/Welcome";
 
 // function App() {
 //   return (
