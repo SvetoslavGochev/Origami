@@ -22,7 +22,7 @@ const Menu = ({ onMenuItemClick }) => {
 
     console.log("app is here");
      //app da razbere
-  }
+  
   return (
     <aside className="menu">
       {MENU_ITEMS.map((x) => (
