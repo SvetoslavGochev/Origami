@@ -1,3 +1,6 @@
+
+import '/'
+
 const footer = ({
     posts
   })=> {
