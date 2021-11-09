@@ -60,9 +60,14 @@ class App extends Component {
    }
 
  render() {
+  let WelcomeProps = {
+    title:"abv",
+    subtitle:"das"
+};
   return (
     <div className={style.app}>
-      <Welcome  title='Hello' subtitle='from react'/>
+      <Welcome {...WelcomeProps}/>
+      <Welcome  title='Hello' subtitle='from react' specificClass='green'/>
       <Welcome  message='Zdrasti' subtitle='ot react'/>
       <Header />
 
