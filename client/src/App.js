@@ -66,9 +66,9 @@ class App extends Component {
 };
   return (
     <div className={style.app}>
-      <Welcome {...WelcomeProps}/>
+      {/* <Welcome {...WelcomeProps}/>
       <Welcome  title='Hello' subtitle='from react' specificClass='green'/>
-      <Welcome  message='Zdrasti' subtitle='ot react'/>
+      <Welcome  message='Zdrasti' subtitle='ot react'/> */}
       <Header />
 
       <div className={style.container}>
