@@ -1,9 +1,16 @@
 import { Component } from "react";
 
+import { Route, Link, NavLink, Redirect, Switch } from 'react-router-dom'
+
+import { Routes } from "react-router-dom";
+
 import * as postService from './services/postService';
 //vsi4ko ot post servise postsService.getAll
 import { getAll } from "./services/postService";
 
+
+import About from './components/About';
+import ContactUs from "./components/ContactUs";
 
 import Header from "./components/Header/Header";
 import Menu from "./components/Menu";
@@ -72,13 +79,12 @@ class App extends Component {
       <Header />
 
       <div className={style.container}>
-        <Menu 
-          onMenuItemClick={this.onMenuItemClick.bind(this)}
-        />
-
-         <Main
-          posts={this.getPosts()}
-          />
+        <Menu  onMenuItemClick={this.onMenuItemClick.bind(this)}/>
+        <Routes>
+           <Route path="/about" component={About} /> 
+            <Route path="/contact" component={ContactUs} />
+        </Routes>
+         <Main posts={this.getPosts()} />
       </div>
     </div>
   );
