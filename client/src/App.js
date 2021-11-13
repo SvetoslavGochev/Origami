@@ -80,10 +80,10 @@ class App extends Component {
 
       <div className={style.container}>
         <Menu  onMenuItemClick={this.onMenuItemClick.bind(this)}/>
-        <Routes>
+        
            <Route path="/about" component={About} /> 
             <Route path="/contact" component={ContactUs} />
-        </Routes>
+        
          <Main posts={this.getPosts()} />
       </div>
     </div>
