@@ -87,7 +87,7 @@ class App extends Component {
           
            <Route path="/about" component={About} /> 
             <Route path="/contact" component={ContactUs} />
-            <Route render={() => <h1>ErrorPAge</h1>} />
+            <Route render={({match, location, history}) => <h1>ErrorPAge</h1>} />
 {/* ako ne ma4va ni6to 6te pokave eror page */}
           </Switch>
       </div>
