@@ -12,15 +12,15 @@ const Header = () => {
        <Link to="/"><NavigationItem>Home</NavigationItem></Link>
        <Link to="/about"><NavigationItem>About</NavigationItem></Link>
        <Link to="contact"><NavigationItem>ContactUs</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 3</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 4</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 5</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 6</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 7</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 8</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 9</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 10</NavigationItem></Link>
-       <Link to="/"><NavigationItem>Going to 11</NavigationItem></Link>
+       <Link to="/about/pesho"><NavigationItem>Pesho</NavigationItem></Link>
+       <Link to="/about/gosho"><NavigationItem>Going to 4</NavigationItem></Link>
+       <Link to="/about/pe6o2"><NavigationItem>Going to 5</NavigationItem></Link>
+       <Link to="/about/pe6o3"><NavigationItem>Going to 6</NavigationItem></Link>
+       <Link to="/about/pe6o4"><NavigationItem>Going to 7</NavigationItem></Link>
+       <Link to="/about/pe6o5"><NavigationItem>Going to 8</NavigationItem></Link>
+       <Link to="/about/pe6o6"><NavigationItem>Going to 9</NavigationItem></Link>
+       <Link to="/about/pe6o7"><NavigationItem>Going to 10</NavigationItem></Link>
+       <Link to="/about/pe6o8"><NavigationItem>Going to 11</NavigationItem></Link>
 
       
       </ul>
